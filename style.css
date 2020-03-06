@@ -1,0 +1,27 @@
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 200px;
+}
+
+h1 {
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+}
+
+button {
+    background-color: white;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 5;
+    margin-right: 5;
+}
+
+header {
+    background-color: grey;
+}
