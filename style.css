@@ -1,0 +1,66 @@
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 200px;
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    font-style: italic;
+}
+
+h4 {
+    text-align: left;
+}
+
+button {
+    background-color: gold;
+    border: 1.5px solid black;
+    font-style: italic;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+    font-style: italic;
+}
+
+header {
+    background-color: grey;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+body {
+    padding: 10px;
+}
+
+#about {
+    background-color: gray;
+    border: 3px solid black;
+    padding: 25px;
+}
+
+h4 {
+    color: white;
+    font-style: italic;
+}
+
+#aa {
+    border: 1px solid black;
+}
+
+p {
+    color: black;
+}
+
+footer {
+    background-color: gray;
+    border: 3px solid black;
+    text-align: center;
+    font-style: italic;
+    margin-top: 40px;
+    color: whitesmoke;
+}
