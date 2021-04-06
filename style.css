@@ -6,12 +6,8 @@ img {
 
 h1 {
     text-align: left;
-    color: white;
+    color: darkblue;
     font-style: italic;
-}
-
-h4 {
-    text-align: left;
 }
 
 button {
@@ -22,12 +18,12 @@ button {
 
 h3 {
     text-align: left;
-    color: white;
+    color: darkblue;
     font-style: italic;
 }
 
 header {
-    background-color: grey;
+    background-color: whitesmoke;
     border: 3px solid black;
     padding: 10px;
     margin-bottom: 40px;
@@ -38,18 +34,29 @@ body {
 }
 
 #about {
-    background-color: gray;
+    background-color: whitesmoke;
     border: 3px solid black;
     padding: 25px;
 }
 
 h4 {
-    color: white;
-    font-style: italic;
+    text-align: left;
+    color: darkblue;
+    font-style: normal;
 }
 
 #aa {
-    border: 1px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#ab {
+    border: 2.5px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 p {
@@ -57,10 +64,16 @@ p {
 }
 
 footer {
-    background-color: gray;
+    background-color: whitesmoke;
     border: 3px solid black;
     text-align: center;
     font-style: italic;
     margin-top: 40px;
-    color: white;
+}
+
+#e {
+    color: darkblue;
+}
+#edu, th, td {
+    border: 2.5px solid black;
 }
