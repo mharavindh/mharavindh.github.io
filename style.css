@@ -23,7 +23,7 @@ h3 {
 }
 
 #head {
-    background-color: lightgoldenrodyellow;
+    background-color: whitesmoke;
     padding: 15px;
     margin-bottom: 40px;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 #about {
-    background-color: lightgoldenrodyellow;
+    background-color: whitesmoke;
     padding: 50px;
 }
 
@@ -61,7 +61,7 @@ p {
 }
 
 #foot {
-    background-color: lightgoldenrodyellow;
+    background-color: whitesmoke;
     text-align: left;
     font-style: italic;
     margin-top: 40px;
@@ -78,8 +78,9 @@ h6 {
     color: darkblue;
 }
 #bdg {
-    background-color: lightgoldenrodyellow;
+    background-color: whitesmoke;
     margin-top: 40px;
+    padding: 30px;
 }
 #badge {
     height: 60px;
@@ -87,6 +88,25 @@ h6 {
     border-radius: 100%;
 }
 body {
-    background-color: lightyellow;
+    background-color: lightgoldenrodyellow;
     background-image: url('bg.jpg');
+}
+
+#ic:hover{
+    transform:scale(2);
+    color: rgb(129, 35, 90);
+}
+
+#badge:hover {
+    transform:scale(1.5);
+}
+
+#ic {
+    color: darkblue;
+}
+
+#aa:hover, #ab:hover, #head:hover, #foot:hover {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, red, palevioletred, violet, blue);
+    border-image-slice: 1;
 }
