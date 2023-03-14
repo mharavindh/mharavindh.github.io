@@ -107,6 +107,6 @@ body {
 
 #aa:hover, #ab:hover, #head:hover, #foot:hover {
     border: 3px solid transparent;
-    border-image: linear-gradient(to right, red, palevioletred, violet, blue);
+    border-image: linear-gradient(to right, rgb(64, 2, 249),rgb(7, 189, 240),  rgb(64, 2, 249));
     border-image-slice: 1;
 }
