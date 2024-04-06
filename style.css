@@ -9,67 +9,49 @@ body {
     height: 15%;
 }
 
-#icx {
-    color: 01674d;
-}
-
 #full-name {
-    margin-top: 15px; /* Adjust as needed */
-    font-family:  'Arial', Sans-serif; /* 'Papyrus', sans-serif; */ /* Specify the font type */
-    font-style: bold; /* Make the font italic */
-    color: #01674d; /* Specify the font color */
-    font-size: 24px; /* Specify the font size */
+    margin-top: 15px; 
+    margin-left: 15px;
+    font-family: 'Arial', Sans-serif; 
+    /* font-family: 'Papyrus', sans-serif; */ 
+    font-style: bold; 
+    color: #01674d; 
+    font-size: 24px; 
 }
 
 #intrests {
-    font-family:  'Arial', Sans-serif; /* 'Papyrus', sans-serif; */ /* Specify the font type */
-    color: #01674d; /* Specify the font color */
-    font-size: 16px; /* Specify the font size */
+    margin-left: 15px;
+    font-family:  'Arial', Sans-serif; 
+    color: #014536; 
+    font-size: 16px; 
 }
 
 #con-body1 {
-    height: 100vh; /* Set height to 100% of viewport height */
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Arrange children vertically */
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
 }
 
-.row {
-    flex: 1; /* Distribute remaining space among rows */
+#flex {
+    flex: 1; 
+}
+
+#colx {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 0px 0px 10px 3px #5c8b7f; */
 }
 
 #col1 {
-    background-color: #004f3b; 
-}
-
-#col2 {
-    background-color: rgb(255, 255, 255);;
-}
-
-/* CSS for the overlapping container */
-
-.overlapping-container-1 {
-    position: absolute; /* Position the container absolutely */
-    top: 140; /* Align the container to the top of the parent */
-    left: 8%; /* Start from the right edge of column-1 */
-    width: 30%; /* Occupy 20% of the parent's width */
-    height: 75%; /* Occupy full height of the parent */
-    background-color: #f6fafa; /* Background color of the overlapping container */
-    z-index: 1; /* Ensure the container is placed above other elements */
-    /* border: 3px solid #5c8b7f; */ /* Add a 2px solid black border */
-    box-shadow: 0px 0px 10px 3px #5c8b7f; /* Add shadow effect */
-    box-sizing: border-box; /* Include the border in the width and height calculation */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column;
-    justify-content: space-between; /* Align children horizontally to the center */
-    align-items: center; /* Align children vertically to the center */
-}
-
-
-#profile-pic {
-    margin-top: 35px; /* Adjust as needed */
+    position: absolute;
+    background-color: #f6fafa;
+    box-shadow: 0px 0px 10px 3px #5c8b7f;
 }
 
 #pic {
+    margin-top: 15px;
     border-radius: 50%;
     height: 150px;
     width: 180px;
@@ -98,99 +80,18 @@ body {
 }
 
 .bar {
-    position: absolute; /* Position the container absolutely */
-    top: 430; /* Align the container to the top of the parent */
-    left: 0%; /* Start from the right edge of column-1 */
-    width: 100%; /* Occupy 20% of the parent's width */
-    height: 10%; /* Occupy full height of the parent */
     background-color: rgb(220, 218, 218);
-    /* border: 1px solid #2e4e46; */
-    /* margin-top: 10px; */
-    /* Optional: Add margin/padding to create space between the image and the bar */
+    width:100%;
+    height: 100%;
 }
 
-.icons {
-    position: absolute;
-    top: 10; /* Align the container to the top of the parent */
-    left: 25%; /* Start from the right edge of column-1 */
+#icons {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
 }
 
 #ic {
-    color: 01674d;
-}
-
-#ic:hover{
-    transform:scale(2);
-    color: rgb(104, 2, 61);
-}
-
-.overlapping-container-2 {
-    position: absolute; /* Position the container absolutely */
-    top: 140; /* Align the container to the top of the parent */
-    left: 42.5%; /* Start from the right edge of column-1 */
-    width: 55%; /* Occupy 20% of the parent's width */
-    height: 75%; /* Occupy full height of the parent */
-    background-color: #ffffff; /* Background color of the overlapping container */
-    z-index: 1; /* Ensure the container is placed above other elements */
-    /* border: 3px solid #5c8b7f; */ /* Add a 2px solid black border */
-    box-shadow: 0px 0px 10px 3px #5c8b7f; /* Add shadow effect */
-    box-sizing: border-box; /* Include the border in the width and height calculation */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column;
-    justify-content: space-between; /* Align children horizontally to the center */
-    /* align-items: center; */ /* Align children vertically to the center */
-}
-
-.about-1 {
-    padding-left: 2.5%;
-    margin-top: 1%;
-    font-size: 36px;
-    text-align: left;
-    font-family:  'Brush Script MT', cursive;
-    /* font-style: italic; */
-    color: #014536;
-}
-
-.about-2 {
-    padding-left: 2.5%;
-    margin-top: 1%;
-    font-size: 20px;
-    text-align: left;
-    font-family:  'Arial', Sans-serif;
-    font-style: italic;
-    color: #014536;
-}
-
-.about-3 {
-    position: absolute; /* Position the container absolutely */
-    top: 110; /* Align the container to the top of the parent */
-    left: 2.5%; /* Start from the right edge of column-1 */
-    width: 95%; /* Occupy 20% of the parent's width */
-    height: 40%; /* Occupy full height of the parent */
-    box-shadow: 0px 0px 0.5px 0.25px #5c8b7f;
-}
-.key-skills {
-    position: absolute; /* Position the container absolutely */
-    top: 310; /* Align the container to the top of the parent */
-    left: 2.5%; /* Start from the right edge of column-1 */
-    width: 95%; /* Occupy 20% of the parent's width */
-    height: 30%; /* Occupy full height of the parent */
-    box-shadow: 0px 0px 0.5px 0.25px #5c8b7f;
-}
-
-.index-footer {
-    position: absolute; /* Position the container absolutely */
-    top: 680; /* Align the container to the top of the parent */
-    left: 15%; /* Start from the right edge of column-1 */
-    width: 80%; /* Occupy 20% of the parent's width */
-    height: 5%; /* Occupy full height of the parent */
-    background-color: #ffffff; /* Background color of the overlapping container */
-    z-index: 1; /* Ensure the container is placed above other elements */
-    /* border: 3px solid #5c8b7f; */ /* Add a 2px solid black border */
-    box-shadow: 0px 0px 10px 3px #5c8b7f; /* Add shadow effect */
-    box-sizing: border-box; /* Include the border in the width and height calculation */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column;
-    justify-content: space-between; /* Align children horizontally to the center */
-    /* align-items: center; */ /* Align children vertically to the center */
+    color: #01674d;
 }
