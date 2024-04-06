@@ -29,12 +29,9 @@ body {
 #con-body1 {
     height: 100vh; 
     display: flex; 
-    flex-direction: column; 
+    flex-direction: row; 
 }
 
-#flex {
-    flex: 1; 
-}
 
 #colx {
     position: absolute;
