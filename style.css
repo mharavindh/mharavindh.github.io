@@ -1,6 +1,7 @@
 body {
-    padding: 10px;
-    box-shadow: 0px 0px 10px 3px #5c8b7f;
+    /* padding: 10px; */
+    height: 100vh; 
+    background:linear-gradient(90deg,#004f3b 30%,#ffffff 0.1%,#ffffff 70%);
 }
 
 #head {
