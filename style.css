@@ -6,7 +6,7 @@ body {
 
 #head {
     background-color: #ebeded;
-    height: 15%;
+    /* height: 15%; */
 }
 
 #full-name {
@@ -28,23 +28,22 @@ body {
 
 #con-body1 {
     height: 100vh; 
+    width: 100%;
     display: flex; 
     flex-direction: row; 
 }
 
-
 #colx {
-    position: absolute;
     background-color: transparent;
-    width: 100%;
+    width: 20%;
     height: 100%;
-    /* box-shadow: 0px 0px 10px 3px #5c8b7f; */
 }
 
 #col1 {
-    position: absolute;
     background-color: #f6fafa;
     box-shadow: 0px 0px 10px 3px #5c8b7f;
+    width: 30%;
+    /* height: 100%; */
 }
 
 #pic {
@@ -57,11 +56,11 @@ body {
 }
 
 #name {
-    margin-top: 30px; /* Adjust as needed */
-    font-family:  'Brush Script MT', cursive; /* 'Papyrus', sans-serif; */ /* Specify the font type */
-    font-style: italic; /* Make the font italic */
-    color: #01674d; /* Specify the font color */
-    font-size: 39px; /* Specify the font size */
+    margin-top: 30px; 
+    font-family: 'Brush Script MT', cursive; 
+    font-style: italic; 
+    color: #01674d; 
+    font-size: 39px; 
 }
 
 #line {
@@ -69,11 +68,11 @@ body {
 }
 
 #role {
-    margin-top: 18px; /* Adjust as needed */
-    font-family:  'Arial', Sans-serif; /* 'Papyrus', sans-serif; */ /* Specify the font type */
-    /* font-style: italic; */ /* Make the font italic */
-    color: #014536; /* Specify the font color */
-    font-size: 20px; /* Specify the font size */
+    margin-top: 18px; 
+    font-family: 'Arial', Sans-serif; 
+    /* font-style: italic; */ 
+    color: #014536; 
+    font-size: 20px; 
 }
 
 .bar {
@@ -91,4 +90,25 @@ body {
 
 #ic {
     color: #01674d;
+}
+
+#ic:hover{
+    /* transform:scale(2); */
+    color: rgb(104, 2, 61);
+}
+
+#col2 {
+    background-color: #f6fafa;
+    box-shadow: 0px 0px 10px 3px #5c8b7f;
+    width: 50%;
+}
+
+#about-1 {
+    padding-left: 2.5%;
+    margin-top: 1%;
+    font-size: 36px;
+    text-align: left;
+    font-family:  'Brush Script MT', cursive;
+    /* font-style: italic; */
+    color: #014536;
 }
