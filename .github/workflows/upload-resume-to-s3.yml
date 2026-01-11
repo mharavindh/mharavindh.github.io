@@ -1,0 +1,29 @@
+name: Upload Resume to S3
+
+
+on:
+push:
+branches:
+- master
+
+
+jobs:
+upload:
+runs-on: ubuntu-latest
+
+
+steps:
+- name: Checkout repo
+uses: actions/checkout@v4
+
+
+- name: Upload resume to S3
+uses: jakejarvis/s3-sync-action@v0.5.1
+with:
+args: --acl private --follow-symlinks --delete
+env:
+AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+AWS_REGION: ap-south-1
+SOURCE_DIR: src/assets/resume
