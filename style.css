@@ -1,112 +1,117 @@
-#pic {
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: #f1f5f9;
+}
+
+
+nav {
+    background: linear-gradient(90deg, #7f00ff, #e100ff);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #ffe066;
+}
+
+/* ===== HOME ===== */
+.home {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    height: 150px;
-    width: 200px;
+    border: 5px solid #ffe066;
 }
 
-h1 {
-    text-align: left;
-    color: darkblue;
-    font-style: italic;
+/* ===== BUTTONS ===== */
+.buttons {
+    margin-top: 30px;
 }
 
-button {
-    background-color: gold;
-    border: 1.5px solid darkblue;
-    font-style: italic;
+.btn {
+    background: linear-gradient(90deg, #00f5a0, #00d9f5);
+    color: #020617;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-weight: bold;
 }
 
-h3 {
-    text-align: left;
-    color: darkblue;
-    font-style: italic;
+.btn:hover {
+    background: linear-gradient(90deg, #00d9f5, #00f5a0);
 }
 
-#head {
-    background-color: whitesmoke;
-    padding: 15px;
-    margin-bottom: 40px;
+/* ===== ABOUT PAGE ===== */
+.about-page {
+    padding: 60px;
 }
 
-body {
-    padding: 10px;
+.about-page h1 {
+    color: #00f5a0;
 }
 
-#about {
-    background-color: whitesmoke;
-    padding: 50px;
+/* ===== PROJECTS PAGE ===== */
+.projects-page {
+    padding: 60px;
 }
 
-h4 {
-    text-align: left;
-    color: darkblue;
-    font-style: normal;
+.project-card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(6px);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    border-left: 5px solid #00f5a0;
 }
 
-#aa {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#ab {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.project-card h2 {
+    color: #00f5a0;
 }
 
-p {
-    color: black;
+/* ===== CONTACT PAGE ===== */
+.contact-page {
+    padding: 60px;
 }
 
-#foot {
-    background-color: whitesmoke;
-    text-align: left;
-    font-style: italic;
-    margin-top: 40px;
-    padding: 1px;
+.contact-page h1 {
+    color: #ffe066;
 }
 
-#e {
-    color: darkblue;
-}
-#edu, th, td {
-    border: 2.5px solid black;
-}
-h6 {
-    color: darkblue;
-}
-#bdg {
-    background-color: whitesmoke;
-    margin-top: 40px;
-    padding: 30px;
-}
-#badge {
-    height: 60px;
-    width: 60px;
-    border-radius: 100%;
-}
-body {
-    background-color: lightgoldenrodyellow;
-    background-image: url('bg.jpg');
+.contact-page a {
+    color: #00d9f5;
 }
 
-#ic:hover{
-    transform:scale(2);
-    color: rgb(129, 35, 90);
-}
-
-#badge:hover {
-    transform:scale(1.5);
-}
-
-#ic {
-    color: darkblue;
-}
-
-#aa:hover, #ab:hover, #head:hover, #foot:hover {
-    border: 3px solid transparent;
-    border-image: linear-gradient(to right, rgb(64, 2, 249),rgb(7, 189, 240),  rgb(64, 2, 249));
-    border-image-slice: 1;
+.contact-page a:hover {
+    color: #00f5a0;
 }
