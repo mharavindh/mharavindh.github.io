@@ -216,10 +216,11 @@ body{
 
 .cert-grid img{
     width:70px;
-    height:auto;
+    height:70px;
+    object-fit: contain;
     background:transparent;
-    padding:0;
-    border-radius:0;
+    padding:5px;
+    border-radius:8px;
     box-shadow:none;
     filter:brightness(1.1);
     transition:transform 0.3s ease;
