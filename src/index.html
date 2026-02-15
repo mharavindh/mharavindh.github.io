@@ -1,57 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Harish Aravindh | Data Engineer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Harish Aravindh M | Data Engineer</title>
 
-<link rel="stylesheet" href="assets/css/main.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
+<!-- HEADER -->
+<div class="container section fade-in" id="head">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="assets/images/harish.jpg" id="pic" alt="Harish Aravindh M" />
+    </div>
+    <div class="col-md-8 text-center text-md-left">
+      <h1>HARISH ARAVINDH M</h1>
+      <h3>Data Engineer</h3>
 
-<header class="hero">
-<img src="assets/images/profile.jpg" alt="Harish Aravindh" />
-<h1>Harish Aravindh M</h1>
-<p>Data Engineer | Python | PySpark | AWS</p>
-
-
-<div class="actions">
-<a href="assets/resume/harish_aravindh.pdf" download class="btn">Download Resume</a>
-<a href="https://www.linkedin.com/in/harish-aravindh-m-331288129" target="_blank"><i class="fab fa-linkedin"></i></a>
-<a href="https://github.com/mharavindh" target="_blank"><i class="fab fa-github"></i></a>
-<a href="mailto:harisharavindhm@gmail.com"><i class="fas fa-envelope"></i></a>
+      <div id="icons" class="mt-3">
+        <a href="mailto:harisharavindhm@gmail.com"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/harish-aravindh-m-331288129/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/mharavindh" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="tel:+917395842051"><i class="fa fa-phone"></i></a>
+        <a href="assets/resume/harish_aravindh.pdf" download><i class="fa fa-download"></i></a>
+      </div>
+    </div>
+  </div>
 </div>
-</header>
 
+<!-- ABOUT / EDUCATION -->
+<div class="container section slide-up" id="about">
+  <div class="row">
+    <div class="col-12">
+      <h4>Education</h4>
+      <p><b>B.E. Electronics and Communication Engineering</b><br>Anna University – CGPA 8.04 (2020)</p>
+      <p>Higher Secondary – 92.75% (2016)</p>
+      <p>Secondary School – 98.9% (2014)</p>
+    </div>
+  </div>
 
-<section class="section">
-<h2>About Me</h2>
-<p>
-Data Engineer with 5+ years of experience building cloud-native data platforms,
-ETL pipelines, and large-scale analytics systems across telecom and banking domains.
-</p>
-</section>
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <h4>Personal Details</h4>
+      <p>Location: Chennai, India</p>
+      <p>Languages: English, Tamil</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Technical Skills</h4>
+      <p>Python, PySpark, SQL, Pandas, NumPy<br>AWS, Databricks, Glue, Redshift</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Interests</h4>
+      <p>AI, Data Engineering, Astronomy, Aerospace</p>
+    </div>
+  </div>
+</div>
 
+<!-- EXPERIENCE -->
+<div class="container section fade-in">
+  <h4>Work Experience</h4>
 
-<section class="section">
-<h2>Core Skills</h2>
-<ul class="skills">
-<li>Python / PySpark</li>
-<li>AWS (Glue, S3, Athena, Redshift)</li>
-<li>Databricks & Spark</li>
-<li>SQL / Pandas / NumPy</li>
-<li>GitHub Actions / Terraform</li>
-</ul>
-</section>
+  <div class="exp-card">
+    <h5>Comcast India Engineering Center</h5>
+    <p><i>Engineer 3 / Engineer 2 (2023 – Present)</i></p>
+    <ul>
+      <li>Spark & PySpark ETL pipelines for telecom datasets</li>
+      <li>AWS Glue → Athena / Redshift pipelines</li>
+      <li>Performance optimization & GenAI POCs</li>
+    </ul>
+  </div>
 
+  <div class="exp-card">
+    <h5>Accenture Solutions Pvt Ltd</h5>
+    <p><i>Data Engineering Associate / Analyst (2020 – 2023)</i></p>
+    <ul>
+      <li>SAS to Python migration for US banking clients</li>
+      <li>Pandas performance optimization</li>
+      <li>Unix orchestration & data validation</li>
+    </ul>
+  </div>
+</div>
 
-<footer>
-<p>© Harish Aravindh</p>
-</footer>
+<!-- CERTIFICATIONS -->
+<div class="container section slide-up" id="bdg">
+  <h4>Certifications</h4>
+  <div class="row text-center mt-4">
+    <div class="col-6 col-md-3">
+      <a href="https://www.credly.com/badges/fcc39fc3-ac78-4fd3-9ea8-123cb9d244e5/public_url" target="_blank">
+        <img class="badge-img" src="assets/images/microsoft-certified-azure-fundamentals.png" />
+      </a>
+    </div>
+    <div class="col-6 col-md-3">
+      <a href="https://www.credly.com/badges/0928920d-cd83-4a79-afc1-4b7fd79beb0a/public_url" target="_blank">
+        <img class="badge-img" src="assets/images/sas-programming-1-essentials.png" />
+      </a>
+    </div>
+    <div class="col-6 col-md-3">
+      <a href="https://verify.skilljar.com/c/obiahzky4hnd" target="_blank">
+        <img class="badge-img" src="assets/images/cdff.png" />
+      </a>
+    </div>
+    <div class="col-6 col-md-3">
+      <a href="https://www.hackerrank.com/certificates/3277dfe2d769" target="_blank">
+        <img class="badge-img" src="assets/images/hackerrank.png" />
+      </a>
+    </div>
+  </div>
+</div>
 
+<!-- FOOTER -->
+<div class="container section" id="foot">
+  <h6>Thanks & Regards,<br>Harish Aravindh M</h6>
+</div>
 
 </body>
 </html>
+
