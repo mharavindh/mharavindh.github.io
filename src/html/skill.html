@@ -6,6 +6,8 @@
 
 <title>Skills</title>
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <link rel="stylesheet" href="/src/css/style.css">
 
 <!-- Font Awesome Icons -->
@@ -17,46 +19,56 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar">
+<nav class="navbar navbar-expand-lg">
 
-<h2 class="logo">HARISH ARAVINDH M</h2>
+<div class="container-fluid">
 
-<ul class="nav-links">
+<h2 class="logo"><i>HARISH ARAVINDH M</i></h2>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+
+<ul class="nav-links ms-auto">
   <li><a href="/index.html">Home</a></li>
   <li><a href="/src/html/about.html">About</a></li>
   <li><a href="/src/html/experience.html">Experience</a></li>
   <li><a href="/src/html/skill.html">Skills</a></li>
 </ul>
 
+</div>
+</div>
 </nav>
 
 
 <!-- ===== PAGE CONTENT ===== -->
-<section class="page">
+<section class="page container">
 
 <h1>Core Skills</h1>
 
 <div class="card">
 
-<h3>Languages & Frameworks</h3>
+<h3 id="skillsh3">Languages & Frameworks</h3>
 <p>Python, PySpark, Pandas, NumPy, SQL, Spark (Scala), Shell Scripting, Base SAS</p>
 
-<h3>Data Engineering</h3>
+<h3 id="skillsh3">Data Engineering</h3>
 <p>Databricks, AWS Glue, Athena, Redshift, Apache Airflow, ETL Design</p>
 
-<h3>Cloud Platforms</h3>
+<h3 id="skillsh3">Cloud Platforms</h3>
 <p>AWS (S3, Lambda, EC2, ECR), Azure Databricks</p>
 
-<h3>Databases</h3>
+<h3 id="skillsh3">Databases</h3>
 <p>Oracle (PL/SQL), MySQL, DB2, MongoDB, Neo4j, DuckDB, Vector Databases</p>
 
-<h3>Big Data & Analytics</h3>
+<h3 id="skillsh3">Big Data & Analytics</h3>
 <p>Apache Spark, Databricks Lakehouse</p>
 
-<h3>ML & GenAI</h3>
+<h3 id="skillsh3">ML & GenAI</h3>
 <p>Scikit-Learn, Prophet, LLMs, MCP, LangChain, LangGraph</p>
 
-<h3>DevOps & Tools</h3>
+<h3 id="skillsh3">DevOps & Tools</h3>
 <p>Git, Linux, Docker, GitHub Actions, Terraform</p>
 
 </div>
@@ -87,7 +99,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 </a>
 
 <a href="https://credentials.databricks.com/abff0c0a-0e9c-4e64-b957-767bf7993623" target="_blank">
-<img id="badge" src="/assets/images/databricks-lakehouse.png" alt="Databricks Lakehouse" style="transform: scale(1.3); transition: transform 0.3s;">
+<img id="badge" src="/assets/images/databricks-lakehouse.png" alt="Databricks Lakehouse" style="transform: scale(1.4); transition: transform 0.3s; padding-top: 12px;">
 </a>
 
 <a href="https://www.credly.com/badges/0928920d-cd83-4a79-afc1-4b7fd79beb0a/public_url" target="_blank">
@@ -124,6 +136,8 @@ Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College
 
 
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

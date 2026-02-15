@@ -243,3 +243,24 @@ body{
 #badge:hover {
     transform:scale(1.5);
 }
+
+@media(max-width:768px){
+    .cert-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:480px){
+    .cert-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+p {
+    color: #f1f5f9 !important;
+}
+
+#skillsh3 {
+    font-style: italic;
+    color: #ffaa00 !important;
+}
